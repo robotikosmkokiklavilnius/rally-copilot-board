@@ -47,6 +47,10 @@ The mp3 player library allow to set the speed by adjusting an integer (0=1x 1=1x
 The libray allows to modify the bitrate so it is theoretically possible to finely adjust the bitrate but I still haven't tested this possibility.
 
 # AUDIO RECORDING
+
+To learn everything about how to use the recording library read the library page:
+https://github.com/TMRh20/TMRpcm/wiki/Advanced-Features#recording-audio
+
 Recommended sample rate 8kHz
 
 The library samples data using the ADC inside the Arduino. Give it's limited resolution the audio input needs to be amplified to make it reach a level between 0 and 5 volts. For amplifying the signale I chose to use an LM358 rail to rail operational amplifier with a small offset to sample the positive and negative side of the incoming signal.
