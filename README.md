@@ -1,5 +1,6 @@
 # RALLY COPILOT BOARD
-This project has been created with the opbjective to build an aid to rally pilots.
+
+This project has been created with the objective to build an aid to rally pilots.
 The board allows the pilot to record and later play vocal notes.
 
 The board is made by five buttons and one switch.
